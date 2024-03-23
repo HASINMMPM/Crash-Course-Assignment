@@ -174,7 +174,10 @@ a{
     .hero_text{
         grid-template-columns: 1fr;
     }
-    
+    .call-out{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @keyframes slideR-L{
